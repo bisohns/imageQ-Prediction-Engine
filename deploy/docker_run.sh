@@ -1,2 +1,2 @@
 #!/bin/bash
-docker run -p 80:8000 deven96/imageqapi
+docker run -p 8008:8008 deven96/imageqapi
