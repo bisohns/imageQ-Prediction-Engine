@@ -1,0 +1,7 @@
+pre code {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    display: block;
+    padding: 20px;
+  }

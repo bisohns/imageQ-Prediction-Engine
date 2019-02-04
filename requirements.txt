@@ -1,0 +1,14 @@
+flask
+numpy
+protobuf
+keras
+tensorflow
+tensorboard
+flask-restful
+celery
+google-python-cloud-debugger
+gunicorn
+Pillow
+docker
+redis
+google-api-python-client

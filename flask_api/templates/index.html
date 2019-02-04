@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>ImageQ API Documentation</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/index.css') }}" />
+    </head>
+    <body>
+        <h1>Using CURL to test the ImageQ API</h1>
+        <p>The ImageQ API currently relies on the 1000 classes provided by the imagenet weights available for use on keras.<br>
+        Below you can see the image we wish to classify, a dog, but more specifically a beagle:<br>
+        </p>
+
+        <img src="{{ url_for('static', filename='assets/dog.jpg') }}" alt="example photo of a beagle for classification">
+
+        <pre>
+        <code>
+        $ curl -X POST -F image=@dog.jpg 'http://imageqapi.appspot.com/predict'
+        
+        {
+        "predictions": [
+            {
+            "label": "beagle",
+            "probability": 0.9901360869407654
+            },
+            {
+            "label": "Walker_hound",
+            "probability": 0.002396771451458335
+            },
+            {
+            "label": "pot",
+            "probability": 0.0013951235450804234
+            },
+            {
+            "label": "Brittany_spaniel",
+            "probability": 0.001283277408219874
+            },
+            {
+            "label": "bluetick",
+            "probability": 0.0010894243605434895
+            }
+        ],
+        "success": true
+        }
+        </code></pre>
+    </body>
+</html>
