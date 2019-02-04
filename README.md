@@ -2,7 +2,7 @@
 
 Flask API for predicting classes made originally for [ImageQ](https://github.com/bisoncorps/imageQ)
 
-[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
+[![Python flask](https://img.shields.io/badge/Python-flask-blue.svg)](https://http://flask.pocoo.org/)
 
 ![Docker Automated Build](https://img.shields.io/docker/automated/deven96/imageqapi.svg?style=flat)
 ![Docker Pulls](https://img.shields.io/docker/pulls/deven96/imageqapi.svg?style=flat)
